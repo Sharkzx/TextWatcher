@@ -19,12 +19,7 @@ public class MainActivity extends AppCompatActivity {
      tvCPF = (TextView) findViewById(R.id.lblTitleCPF);
      etCPF = (EditText) findViewById(R.id.txtCPF);
 
-
         cpfMask = textWatcherCPF.insert("###.###.###-##", etCPF);
-
         etCPF.addTextChangedListener(cpfMask);
-
-
-
     }
 }
